@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedibit - Soluciones Odoo para tu Negocio</title>
+    <!-- Carga de Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos personalizados para la fuente Inter y un scroll suave */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Barra de Navegación (Header) -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-600">Sedibit</a>
+            <div class="flex items-center space-x-6">
+                <a href="#servicios" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Servicios</a>
+                <a href="#sobre-nosotros" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Sobre Nosotros</a>
+                <a href="#contacto" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <main>
+        <section class="bg-indigo-700 text-white py-20 px-6 sm:py-32">
+            <div class="container mx-auto text-center">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
+                    Transforma tu negocio con <span class="text-indigo-200">soluciones Odoo</span>.
+                </h1>
+                <p class="text-lg sm:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto">
+                    Sedibit es tu socio estratégico para implementar, personalizar y optimizar Odoo, impulsando el crecimiento y la eficiencia de tu empresa.
+                </p>
+                <a href="#servicios" class="bg-white text-indigo-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 inline-block">
+                    Descubre nuestros servicios
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section id="servicios" class="py-20 px-6 bg-white">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-indigo-800">Nuestros Servicios</h2>
+                <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+                    Ofrecemos un portafolio completo de servicios para ayudarte a sacar el máximo provecho de Odoo en todas las áreas de tu negocio.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Tarjeta de Servicio 1 -->
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+                        <div class="text-indigo-600 mb-4 text-4xl">
+                            <!-- Icono de implementación (puedes usar un SVG o emoji) -->
+                            <span>🚀</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">Implementación de Odoo</h3>
+                        <p class="text-gray-600">
+                            Guiamos a tu equipo en la implementación completa de Odoo, asegurando una transición suave y exitosa a la nueva plataforma.
+                        </p>
+                    </div>
+
+                    <!-- Tarjeta de Servicio 2 -->
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+                        <div class="text-indigo-600 mb-4 text-4xl">
+                            <!-- Icono de personalización -->
+                            <span>🛠️</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">Personalización y Desarrollo</h3>
+                        <p class="text-gray-600">
+                            Desarrollamos módulos a medida y personalizamos Odoo para que se adapte perfectamente a los procesos únicos de tu empresa.
+                        </p>
+                    </div>
+
+                    <!-- Tarjeta de Servicio 3 -->
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+                        <div class="text-indigo-600 mb-4 text-4xl">
+                            <!-- Icono de soporte -->
+                            <span>🤝</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">Soporte y Mantenimiento</h3>
+                        <p class="text-gray-600">
+                            Ofrecemos soporte técnico continuo y mantenimiento para garantizar que tu sistema Odoo funcione sin interrupciones.
+                        </p>
+                    </div>
+
+                    <!-- Tarjeta de Servicio 4 -->
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+                        <div class="text-indigo-600 mb-4 text-4xl">
+                            <!-- Icono de migración -->
+                            <span>🔄</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">Migración de Datos</h3>
+                        <p class="text-gray-600">
+                            Nos encargamos de la migración segura y eficiente de tus datos desde sistemas antiguos hacia tu nueva plataforma Odoo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Nosotros -->
+        <section id="sobre-nosotros" class="py-20 px-6 bg-indigo-50">
+            <div class="container mx-auto text-center md:flex md:items-center md:text-left">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-indigo-800">
+                        Acerca de Sedibit
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        En Sedibit, somos un equipo de expertos apasionados por la tecnología y la gestión empresarial. Nuestra misión es empoderar a las empresas a través de la versatilidad de Odoo, ofreciendo soluciones que no solo resuelven problemas, sino que también generan nuevas oportunidades de crecimiento.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        Creemos en las relaciones a largo plazo con nuestros clientes, actuando como un socio confiable que está siempre disponible para ayudar a optimizar sus operaciones.
+                    </p>
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0 md:pl-12 flex justify-center">
+                    <!-- Imagen representativa de la empresa o Odoo -->
+                    <!-- Nota: usa una URL de imagen real o un SVG para un diseño final. -->
+                    <img src="https://placehold.co/500x300/a5b4fc/4338ca?text=Imagen+de+la+Empresa" alt="Equipo de Sedibit trabajando con tecnología" class="rounded-xl shadow-2xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="py-20 px-6 bg-white">
+            <div class="container mx-auto text-center max-w-xl">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-indigo-800">Contáctanos</h2>
+                <p class="text-lg text-gray-600 mb-8">
+                    ¿Listo para llevar tu negocio al siguiente nivel? Escríbenos y comencemos a trabajar juntos en tu proyecto.
+                </p>
+                <form class="space-y-6">
+                    <input type="text" placeholder="Tu Nombre" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    <input type="email" placeholder="Tu Correo Electrónico" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    <textarea rows="5" placeholder="Tu Mensaje" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                    <button type="submit" class="w-full bg-indigo-600 text-white font-bold py-4 rounded-lg shadow-lg hover:bg-indigo-700 transition-colors duration-300 transform hover:scale-105">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página (Footer) -->
+    <footer class="bg-gray-800 text-white py-8 px-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Sedibit. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
